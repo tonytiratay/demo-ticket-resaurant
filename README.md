@@ -1,3 +1,18 @@
-## Application de simulation de salaire mensuel.
+## Application de simulation de salaire mensuel
 
-A partir de quelques inputs (comme le taux horaire, le nombre de jours travaillés, donnes moi un exemple de salaire brut et net mensuel, avec une répartition à peu près fiable des montants à verser par l'employer et à toucher pour le salarié. 
+Cette petite application React calcule un exemple de salaire mensuel à partir de quelques entrées :
+
+- **Taux horaire** en euros
+- **Heures par jour** travaillées
+- **Nombre de jours travaillés** dans le mois
+
+Le calcul est volontairement simplifié. Les résultats affichent :
+
+- Le salaire brut
+- Les charges employeur estimées (42 % du brut)
+- Les charges salarié estimées (22 % du brut)
+- Le salaire net à percevoir
+
+### Exécution
+
+Ouvrez simplement `index.html` dans un navigateur avec une connexion à Internet (les dépendances React sont chargées via CDN).
